@@ -1,0 +1,10 @@
+.chart{
+    padding: 1rem;
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 20px -15px rgba(0,0,0,0.75);
+    margin: 1rem;
+    border-radius: 4px;
+}
+.chart-heading{
+    margin-bottom: 2rem;
+}

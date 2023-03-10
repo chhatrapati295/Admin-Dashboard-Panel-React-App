@@ -1,0 +1,19 @@
+.newProduct{
+    flex: 4;
+    margin: 1rem;
+}
+.leftProductContent2 #input , #stock , #active {
+    width: 300px;
+}
+.leftProductContent2{
+    width: 30%;
+    margin-top: 2rem;
+}
+.leftProductContent2 .createBtn{
+    padding: 0.3rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    align-self: center;
+}

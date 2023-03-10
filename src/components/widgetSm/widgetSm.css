@@ -1,0 +1,55 @@
+.widgetSm{
+    flex: 1;
+    padding: 1rem;
+    box-shadow: 0px 0px 20px -15px rgba(0,0,0,0.75);
+    border-radius: 4px;
+}
+.widgetSm .title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.members-list{
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.members-list img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.member-list{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+}
+.member-name-info{
+    display: flex;
+    flex-direction: column;
+}
+.member-name-info .member-name{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.member-name-info .member-job{
+    font-size: 0.8rem;
+    color: grey;
+}
+.member-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0.2rem 0.7rem;
+    background: rgb(226, 238, 248);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 2rem;
+}
+.eye{
+    font-size: 0.8rem !important;
+}
